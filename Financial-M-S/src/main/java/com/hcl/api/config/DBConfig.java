@@ -67,6 +67,7 @@ public class DBConfig {
 	public ResourceBundleMessageSource messageSource() {
 		ResourceBundleMessageSource source = new ResourceBundleMessageSource();
 		source.setBasename("application");
+		source.setBasename("message");
 		source.setUseCodeAsDefaultMessage(true);
 		return source;
 	}
